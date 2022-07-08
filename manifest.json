@@ -1,0 +1,32 @@
+{
+    "dir": "ltr",
+    "name": "Nepal Database - News & Magazine Script ",
+    "description": "Nepal Database is the platform where user can upload their any type of contents like articals, research report, etc. and get it published in the website. This script is developed to make the website more user friendly and easy to use. ",
+    "short_name": "Nepal Database",
+    "icons": [
+        {
+            "src": "https://domain.com/assets/img/pwa/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "https://domain.com/assets/img/pwa/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://domain.com/assets/img/pwa/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/",
+    "start_url": "https://domain.com",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "url": "https://domain.com",
+    "lang": "",
+    "screenshots": []
+}

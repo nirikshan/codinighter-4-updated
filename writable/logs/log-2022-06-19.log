@@ -1,0 +1,72 @@
+CRITICAL - 2022-06-19 19:44:09 --> Undefined variable $baseSettings
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Views/admin/includes/_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 6)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Common.php(1089): CodeIgniter\View\View->render('admin/includes/...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/RewardController.php(30): view('admin/includes/...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\RewardController->rewardSystem()
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RewardController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 19:45:41 --> Undefined property: App\Controllers\RewardController::$activeLang
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/BaseAdminController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 97)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/RewardController.php(11): App\Controllers\BaseAdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(809): App\Controllers\RewardController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(409): CodeIgniter\CodeIgniter->createController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 19:45:42 --> Undefined property: App\Controllers\AdminController::$activeLang
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/BaseAdminController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 97)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(21): App\Controllers\BaseAdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(809): App\Controllers\AdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(409): CodeIgniter\CodeIgniter->createController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 19:45:42 --> Undefined property: App\Controllers\AdminController::$activeLang
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/BaseAdminController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 97)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(21): App\Controllers\BaseAdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(809): App\Controllers\AdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(409): CodeIgniter\CodeIgniter->createController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 19:45:44 --> Undefined property: App\Controllers\AdminController::$activeLang
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/BaseAdminController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 97)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(21): App\Controllers\BaseAdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(809): App\Controllers\AdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(409): CodeIgniter\CodeIgniter->createController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 19:45:44 --> Undefined property: App\Controllers\RewardController::$activeLang
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/BaseAdminController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 97)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/RewardController.php(11): App\Controllers\BaseAdminController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(809): App\Controllers\RewardController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(409): CodeIgniter\CodeIgniter->createController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 19:52:10 --> Class "App\Controllers\initController" not found
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Autoloader/Autoloader.php(264): include_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(796): class_exists('\\App\\Controller...', true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-19 19:52:28 --> Undefined variable $baseSettings
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Views/admin/includes/_header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 6)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Common.php(1089): CodeIgniter\View\View->render('admin/includes/...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(1228): view('admin/includes/...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\AdminController->storage()
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}

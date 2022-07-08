@@ -1,0 +1,14 @@
+CRITICAL - 2022-06-15 20:26:03 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 49)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\AdminController->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 20:30:26 --> Undefined property: stdClass::$role_type
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 48)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\AdminController->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}

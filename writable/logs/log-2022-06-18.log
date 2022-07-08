@@ -1,0 +1,165 @@
+CRITICAL - 2022-06-18 19:09:43 --> Call to undefined function App\Controllers\BaseUrl()
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 19:10:34 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::adminUrl()
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 19:10:41 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::adminUrl()
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 19:10:53 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::adminUrl()
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 19:10:54 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::adminUrl()
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 19:27:20 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/X...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(796): class_exists('\\App\\Controller...', true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:12 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:37 --> Undefined variable $add_post
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:38 --> Undefined variable $add_post
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:45 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:46 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:56 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:32:57 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:33:08 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:33:09 --> Attempt to read property "add_post" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:33:24 --> Undefined array key "add_post"
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:33:25 --> Undefined array key "add_post"
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 361)
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Common.php(378): checkUserPermission('add_post')
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/PostController.php(812): checkPermission('add_post')
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\PostController->bulkPostUpload()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:49:30 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('author/index.ph...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Common.php(1089): CodeIgniter\View\View->render('author/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(50): view('author/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\AdminController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 19:51:33 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('author/index.ph...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Common.php(1089): CodeIgniter\View\View->render('author/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(50): view('author/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\AdminController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-18 20:18:05 --> Invalid file: {0}
+#0 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('author/index.ph...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/Common.php(1089): CodeIgniter\View\View->render('author/index', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/app/Controllers/AdminController.php(50): view('author/index', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(831): App\Controllers\AdminController->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/NepalDatabasePlatform/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,26 @@
+ERROR - 2022-05-31 10:00:37 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-31 10:00:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\NepalDatabasePlatform\system\Session\Handlers\DatabaseHandler.php(94): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#2 C:\xampp\htdocs\NepalDatabasePlatform\system\Session\Session.php(894): session_start()
+#3 C:\xampp\htdocs\NepalDatabasePlatform\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 C:\xampp\htdocs\NepalDatabasePlatform\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 C:\xampp\htdocs\NepalDatabasePlatform\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#6 C:\xampp\htdocs\NepalDatabasePlatform\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 C:\xampp\htdocs\NepalDatabasePlatform\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 C:\xampp\htdocs\NepalDatabasePlatform\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 C:\xampp\htdocs\NepalDatabasePlatform\app\Config\Globals.php(27): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#10 C:\xampp\htdocs\NepalDatabasePlatform\app\Config\Globals.php(108): Config\Globals::setGlobals()
+#11 C:\xampp\htdocs\NepalDatabasePlatform\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\NepalDatabasePlatform\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\NepalDatabasePlatform\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Globals')
+#14 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Globals')
+#15 C:\xampp\htdocs\NepalDatabasePlatform\app\Config\Routes.php(7): spl_autoload_call('Config\\Globals')
+#16 C:\xampp\htdocs\NepalDatabasePlatform\system\CodeIgniter.php(712): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\NepalDatabasePlatform\system\CodeIgniter.php(367): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#18 C:\xampp\htdocs\NepalDatabasePlatform\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 C:\xampp\htdocs\NepalDatabasePlatform\index.php(47): CodeIgniter\CodeIgniter->run()
+#20 {main}
